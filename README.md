@@ -1,6 +1,6 @@
 # VEthernet
 ### Easily implement tun2socks (SOCKS5) based on VEthernet.
-You can easily develop any form of "3 Layer VPN", "Traffic Tracking", "Traffic Pollution", "Traffic Injection", "Game Accelerator" and other types of applications on Windows x86 platform through the Vethernet framework
+You can easily develop any form of "3 Layer VPN", "Traffic Tracking", "Traffic Pollution", "Traffic Injection", "Game Accelerator" and other types of applications on Windows x86 platform through the VEthernet framework
 
 #### Environment
 * *`.Net Framework 4.0`*
@@ -9,10 +9,22 @@ You can easily develop any form of "3 Layer VPN", "Traffic Tracking", "Traffic P
 * *`Windows 8.1`*
 * *`Windows 10`*  
 * *`X86 Only`*
+* *`Visual Studio 2017`*
 
 #### Usage
 > * ./tun2socks.exe --proxyserver=192.168.0.21 --proxyport=1080
 > * ./tun2socks.exe --proxyserver=192.168.0.21 --proxyport=1080 --bypass-iplist=./ip.txt
+
+#### Features
+* Framework supports the ICMP/UDP/TCP/IP protocol, IPv4 only
+* Framework provides support for IP packet sharding
+* Automated deployment of virtual network cards
+* Automatically configure the kernel IP route table
+* SOCKS5 UDP and TCP support
+* Supports configure to bypass ip-list
+* Tun2socks routine implementation uses only a few thousand lines of C# code
+* Vethernet interface is very simple to use, you can easily complete a new product
+* The technology is powered by "Ppp@SupersocksR" but has been heavily cut back
 
 #### Comment
 * 1.0.0.0.zip bypass with chinese-mainland ip.txt
