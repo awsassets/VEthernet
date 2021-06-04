@@ -1,0 +1,7 @@
+D:\dd\VEthernet\tun2socks\bin\Debug\tun2socks.exe
+D:\dd\VEthernet\tun2socks\bin\Debug\tun2socks.pdb
+D:\dd\VEthernet\tun2socks\bin\Debug\VEthernet.dll
+D:\dd\VEthernet\tun2socks\obj\Debug\tun2socks.csproj.CoreCompileInputs.cache
+D:\dd\VEthernet\tun2socks\obj\Debug\tun2socks.csproj.CopyComplete
+D:\dd\VEthernet\tun2socks\obj\Debug\tun2socks.exe
+D:\dd\VEthernet\tun2socks\obj\Debug\tun2socks.pdb
